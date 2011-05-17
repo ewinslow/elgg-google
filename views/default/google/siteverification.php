@@ -1,6 +1,6 @@
 <?php 
 
-$code = get_plugin_setting('site_verification_code', 'google');
+$code = elgg_get_plugin_setting('site_verification_code', 'google');
 
 if(empty($code)) {
 	return;

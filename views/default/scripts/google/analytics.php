@@ -3,7 +3,7 @@
 $code = elgg_get_plugin_setting('tracking_code', 'google');
 
 if (empty($code)) {
-	return;
+	return true;
 }
 
 ?>
