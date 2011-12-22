@@ -6,4 +6,4 @@ if(empty($code)) {
 	return;
 }
 ?>
-<meta name="google-site-verification" content="<?php echo addslashes($code); ?>" />
+<meta name="google-site-verification" content="<?php echo htmlspecialchars($code, ENT_QUOTES, 'UTF-8'); ?>" />
