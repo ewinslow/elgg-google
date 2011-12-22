@@ -9,4 +9,6 @@ add_translation('en', array(
 	'action:google:calendar:save:failure' => 'Something went wrong while trying to save your settings',
 
 	'google:settings:enable_google_calendar' => 'Enable google calendar',
+
+	'calendar:group' => 'Group calendar',
 ));
