@@ -2,8 +2,6 @@
 /**
  * Display a G+ badge for a +Page
  */
-elgg_load_js('gapi.plus');
-
 $attrs = array(
 	'class' => 'g-plus',
 	

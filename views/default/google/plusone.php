@@ -2,8 +2,6 @@
 /**
  * Display a plus one button
  */
-elgg_load_js('gapi.plus');
-
 $attrs = array(
 	'class' => 'g-plusone',
 	
