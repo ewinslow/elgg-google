@@ -1,14 +1,7 @@
 <?php
 
 add_translation('en', array(
-	'google:webmastertools:code' => "Google Webmaster Tools site verification code",
-	'google:analytics:code' => "Google Analytics tracking code",
-	'google:calendar:notsetup' => "This calendar has not been set up yet",
-
-	'action:google:calendar:save:success' => 'Google calendar settings saved successfully',
-	'action:google:calendar:save:failure' => 'Something went wrong while trying to save your settings',
-
-	'google:settings:enable_google_calendar' => 'Enable google calendar',
-
-	'calendar:group' => 'Group calendar',
+	'object:plugin:google:site_verification_code:label' => "Google Webmaster Tools site verification code",
+	'object:plugin:google:tracking_code:label' => "Google Analytics tracking code",
+	'object:plugin:google:tracking_domain:label' => "Google Analytics tracking domain",
 ));

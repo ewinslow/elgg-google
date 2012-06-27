@@ -7,12 +7,17 @@ if (empty($code)) {
 	return true;
 }
 
+$domain = elgg_get_plugin_setting('tracking_domain', 'google');
+
 ?>
 
 <script type="text/javascript">
 
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', '<?php echo $code; ?>']);
+	<?php if (!empty($domain)) { ?>
+		_gaq.push(['_setDomainName', '<?php echo $domain; ?>']);
+	<?php } ?>
 	_gaq.push(['_trackPageview']);
 
 	(function() {
