@@ -1,20 +1,14 @@
 {
     "name": "ewinslow/elgg-google",
-    "version": "1.3.0",
+    "type": "elgg-plugin",
+    "extra": {
+        "installer-name": "google"
+    },
     "description": "Provides Elgg support for various Google products like Analytics, Webmaster Tools, etc.",
     "require": {
         "composer/installers": ">=1.0.8"
     },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Evan Winslow",
-            "email": "evan.b.winslow@gmail.com"
-        }
-    ],
-    "extra": {
-        "installer-name": "google"
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
